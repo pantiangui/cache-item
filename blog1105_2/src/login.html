@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>慧动力博客管理系统</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="apple-touch-icon-precomposed" href="images/icon/icon.png">
+		<link rel="shortcut icon" href="images/icon/favicon.ico">
+		<script src="js/jquery-2.1.4.min.js"></script>
+	</head>
+
+	<body class="user-select">
+		<div class="container">
+			<div class="siteIcon"><img src="images/icon/icon.png" alt="" data-toggle="tooltip" data-placement="top" title="欢迎使用异清轩博客管理系统"
+				 draggable="false" /></div>
+			<form action="index.html" method="post" autocomplete="off" class="form-signin">
+				<h2 class="form-signin-heading">管理员登录</h2>
+				<!-- <label for="userName" class="sr-only">用户名</label> -->
+				<input type="text" id="username" name="username" class="form-control" placeholder="请输入邮箱" autofocus
+				 autocomplete="off"  value="pantiangui2806@163.com">
+				<!-- <label for="userPwd" class="sr-only">密码</label> -->
+				<input type="password" id="userpwd" name="userpwd" class="form-control" placeholder="请输入密码" autocomplete="off"
+				value="ASDasd123">
+				 <div class="code">
+					<input type="text" name="" id="codenum" value="" placeholder="请输入验证码"/>
+					<input type="button" name="" id="code_btn" value="获取验证码" />
+				 </div>
+				 
+				 
+				<a><button class="btn btn-lg btn-primary btn-block" type="button" id="signinSubmit">登录</button></a>
+			</form>
+		</div>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/admin-scripts.js"></script>
+		<script src="js/login.js"></script>
+	</body>
+</html>

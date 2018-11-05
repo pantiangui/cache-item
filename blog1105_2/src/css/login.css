@@ -1,0 +1,106 @@
+@charset "utf-8";
+body {
+	background: url(../images/loginbg1.jpg);
+}
+.container{
+	margin-bottom: 50px;
+}
+.siteIcon {
+	max-width: 330px;
+	margin: 20px auto;
+	text-align: center;
+}
+.siteIcon img {
+	cursor: pointer;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.siteIcon img:hover {
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.siteIcon img:active {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.form-signin {
+	width: 450px;
+	padding: 30px 50px 30px;
+	margin: 0 auto;
+	background: #FFF;
+	-moz-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+	box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+	border-radius: 5px;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+.form-signin-heading{
+	text-align: center;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #CCCCCC;
+	
+}
+.form-signin .checkbox {
+	font-weight: normal;
+}
+.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+#username {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+#userpwd {
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.code{
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	height: 39px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	font-size: 0;
+}
+#codenum{
+	box-sizing: border-box;
+	padding: 10px;
+	width: 250px;
+	border: none;
+	font-size: 14px;
+}
+#code_btn{
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 10px;
+	border: none;
+	background: skyblue;
+	float: right;
+}
+.btn-primary.disabled, .btn-primary.disabled:hover {
+	background-color: #3399CC;
+	border-color: #2890C4;
+}
